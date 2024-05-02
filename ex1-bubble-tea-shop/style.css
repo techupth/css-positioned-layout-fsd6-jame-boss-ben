@@ -2,4 +2,43 @@ body {
   font-family: "Kanit";
 }
 
-/* Start coding here */
+header {
+  background-color: gray;
+  font-size: 26px;
+  font-weight: bolder;
+  color: white;
+  position: absolute;
+  width: max-content;
+  padding: 5px 10px;
+  z-index: 100;
+  top: 50px;
+  right: 0;
+}
+
+.card {
+  position: relative;
+  width: max-content;
+}
+
+img {
+  border-radius: 16px;
+}
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 16px;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+  z-index: 1;
+}
+.name-pic {
+  position: absolute;
+  font-size: 26px;
+  font-weight: bolder;
+  color: white;
+  bottom: 0px;
+  z-index: 100;
+  padding: 16px;
+}
