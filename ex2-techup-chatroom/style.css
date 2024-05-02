@@ -1,1 +1,52 @@
-/* Start coding here */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+header {
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    color: whitesmoke;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px;
+}
+.text {
+    width: 150px;
+    height: auto;
+    background-color: gray;
+    padding: 8px;
+    border-radius: 16px;
+}
+main .user {
+    background-color: greenyellow;
+    display: flex;
+    margin-left: auto;
+}
+main .error {
+    background-color: gainsboro;
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    
+}
+.delete-bt{
+    position: absolute;
+    font-size: 8px;
+    color: whitesmoke;
+    width: fit-content;
+    background-color: grey;
+    border-radius: 8px;
+    padding: 4px;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
