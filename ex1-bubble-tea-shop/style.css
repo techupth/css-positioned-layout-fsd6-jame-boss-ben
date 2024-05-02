@@ -2,4 +2,63 @@ body {
   font-family: "Kanit";
 }
 
-/* Start coding here */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bg1 {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video1 {
+  background-color: white;
+  width: 850px;
+  height: 50%;
+  position: relative;
+  border: 15px solid white;
+}
+
+.preview1 {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  position: absolute;
+  z-index: 1;
+}
+
+.bg2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  position: absolute;
+  z-index: 2;
+  background-image: linear-gradient(0deg, rgb(0, 0, 0), rgba(255, 255, 255, 0));
+}
+
+.title1 {
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  z-index: 3;
+}
+
+.nextvideo1 {
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  top: 20px;
+  right: 0px;
+  z-index: 3;
+  padding: 5px;
+  background-color: gray;
+  width: 150px;
+  text-align: center;
+}
